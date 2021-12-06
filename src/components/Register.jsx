@@ -2,14 +2,14 @@ import React from "react";
 
 const Register = () => {
   return (
-    <div className="container w-25">
+    <div className="container col-md-4">
       <h2 className="text-center">Amazon</h2>
       <div className="card">
         <div className="card-body">
           <h4>Sign In</h4>
           <form>
             <label className="form-label">Email or mobile phone number</label>
-            <input type="email" class="form-control" />
+            <input type="email" class="form-control" required />
             <button type="submit" className="btn btn-sm btn-warning w-100 my-4">
               Continue
             </button>

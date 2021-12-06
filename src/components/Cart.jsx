@@ -47,7 +47,7 @@ const Cart = () => {
     return (
       <Fragment>
         <div className="row py-4">
-          <div className="col-md-8">
+          <div className="col-lg-8">
             <div className="container">
               <h2>Shopping Cart</h2>
               <p className="float-end">Price</p>
@@ -102,7 +102,7 @@ const Cart = () => {
               </p>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-lg-4">
             <div className="card mx-4">
               <div className="card-body">
                 <p className="lead ">

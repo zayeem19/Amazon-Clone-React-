@@ -72,7 +72,7 @@ const Home = () => {
       </div>
       {/* Product Container Starts */}
       <div className="row m-2">
-        <article className="card col-sm m-2 ">
+        <article className="card col-md m-2 ">
           <h4 className="card-title my-2">Amazon Basics</h4>
           <img src={basics} className="card-body" alt="" />
           <NavLink to="/products" className="text-success nav-link">
@@ -80,7 +80,7 @@ const Home = () => {
           </NavLink>
         </article>
 
-        <article className="card col-sm  m-2">
+        <article className="card col-md  m-2">
           <h4 className="card-title my-2">Electronics</h4>
           <img src={electronics} className="card-body" alt="" />
           <NavLink to="/products" className="text-success nav-link">
@@ -88,7 +88,7 @@ const Home = () => {
           </NavLink>
         </article>
 
-        <article className="card col-sm m-2">
+        <article className="card col-md m-2">
           <h4 className="card-title my-2">Computers & Accessories</h4>
           <img src={computers} className="card-body" alt="" />
           <NavLink to="/products" className="text-success nav-link">
@@ -96,7 +96,7 @@ const Home = () => {
           </NavLink>
         </article>
 
-        <article className="col-sm  m-2">
+        <article className="col-md  m-2">
           <div className="my-2">
             <h4>
               Sign in for the best
