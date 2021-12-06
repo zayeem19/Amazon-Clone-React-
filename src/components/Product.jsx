@@ -55,7 +55,7 @@ const Product = () => {
           <img
             src={product.image}
             alt="productImage"
-            style={{ height: "400px", width: "400px" }}
+            style={{ height: "350px", width: "350px" }}
           />
         </div>
         <div className="col-md-6">
